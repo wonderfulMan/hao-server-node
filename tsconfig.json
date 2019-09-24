@@ -9,7 +9,11 @@
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./",
-    "incremental": true
+    "incremental": true,
+    "paths": {
+      "@module/*": ["src/module/*"],
+      "@controller/*": ["src/api/*"]
+    }
   },
   "exclude": ["node_modules", "dist"]
 }
