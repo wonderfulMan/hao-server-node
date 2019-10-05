@@ -12,7 +12,12 @@
     "incremental": true,
     "paths": {
       "@module/*": ["src/module/*"],
-      "@controller/*": ["src/api/*"]
+      "@controller/*": ["src/api/*"],
+      "@util/*":["src/util/*"],
+      "@global/*": ["src/global/*"],
+      "@exception/*": ["src/exception/*"],
+      "@config/*": ["src/config/*"],
+      "@common/*": ["src/common/*"]
     }
   },
   "exclude": ["node_modules", "dist"]
